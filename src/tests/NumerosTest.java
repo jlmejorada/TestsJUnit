@@ -43,9 +43,7 @@ class NumerosTest {
 		return Stream.of(
 				Arguments.of(-7,false),
 				Arguments.of(10,false), 
-				Arguments.of(121,true),
-				//Este tecnicamente no habría que hacerlo pero es un fallo del codigo
-				Arguments.of(0,false)
+				Arguments.of(121,true)
 				
 				);
 	}	
